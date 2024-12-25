@@ -103,6 +103,8 @@ Le projet est organisé de manière modulaire pour assurer la lisibilité et la 
 ### 2. Interagissez avec les graphiques et les options pour personnaliser vos analyses :
 ### 3. Obtenez des résultats des prédictions pour des différents modèles ou pour le jeu de données complet.
 
+---
+
 ## 📊 **Ensemble de données**
 
 ### 1. Les Variables de notre jeu de données
@@ -121,7 +123,7 @@ Le projet utilise le jeu de données suivant :
 
 - **EducationLevel :** Le niveau d'éducation des patients.
 
-##**Facteurs liés au mode de vie**
+### **Facteurs liés au mode de vie**
 
 - **BMI :** Indice de Masse Corporelle des patients, allant de 15 à 40.
 
@@ -163,7 +165,7 @@ Le projet utilise le jeu de données suivant :
 
 - **CholestérolTriglycérides :** Taux de triglycérides, variant de 50 à 400 mg/dL.
 
-##**Évaluations cognitives et fonctionnelles**
+### **Évaluations cognitives et fonctionnelles**
 **MMSE :** score du Mini-Mental State Examination, compris entre 0 et 30. Des scores inférieurs indiquent une déficience cognitive.
 
 - **FunctionalAssessment :** Score d’évaluation fonctionnelle, allant de 0 à 10. Des scores plus faibles indiquent une déficience plus importante.
@@ -174,7 +176,7 @@ Le projet utilise le jeu de données suivant :
 
 - **ADL :** Score des activités de la vie quotidienne, allant de 0 à 10. Les scores les plus bas indiquent une plus grande déficience.
 
-## Symptômes
+### Symptômes
 
 - **Confusion :** Présence de confusion (Oui ou Non).
 
@@ -186,11 +188,11 @@ Le projet utilise le jeu de données suivant :
 
 - **Forgetfulness :** Présence d'oubli (Oui ou Non).
 
-## Informations sur le diagnostic
+### Informations sur le diagnostic
 
 - **Diagnostic :** Statut du diagnostic de la maladie d'Alzheimer (Oui ou Non).
 
-## Informations confidentielles
+### Informations confidentielles
 
 - **DoctorInCharge :** Cette colonne contient des informations confidentielles sur le médecin responsable, avec « XXXConfid » comme valeur pour tous les patients.
 
@@ -200,5 +202,101 @@ Dans notre étude, la variable cible est **Diagnostic**, Cette variable catégor
 - **0** est équivalent à **No**
 - **1** est équivalent à **Yes**
 
-## 📊 **Methodes et techniques d'étude**
+---
+
+## 📊 **Methodes et techniques d'anayse utilisées**
+Les méthodes d'analyse utilisées dans votre projet incluent plusieurs approches pour explorer, visualiser et modéliser les données afin d'obtenir des insights significatifs et de prédire la probabilité de la maladie d'Alzheimer.
+### 1. Analyse exploratoire des données (EDA)
+
+- **Statistiques descriptives :** Moyenne, médiane, écart-type et distribution des données.
+- **Analyse déscriptive univariée :** Tableau de fréquence des variables, catégorisation de nombres de patients par variable, Analyse de normalité.
+- **Analyse déscriptive bivariée :** Analyse des relations entre les variables
+- **Analyse déscriptive multiivariée :** Tableau de corrélation, Heatmap
+
+### 2. Prétraitement des données
+
+- **Encodage des variables catégoriques :** Conversion des colonnes textuelles en numériques avec LabelEncoder
+- **Normalisation :** Normalisation des différentes variables pour assurer une échelle uniforme entre les fonctionnalités
+- **Suppression des anomalies :** Identification et traitement des valeurs aberrantes dans des colonnes spécifiques
+
+### 3. Modélisation prédictive
+
+Plusieurs algorithmes de machine learning ont été testés pour prédire le diagnostic :
+
+- Arbre de Décision
+- Forêt Aléatoire
+- K Plus Proche Voisins
+- Regression Logistique
+- SVM
+- XGBoost
+- CatBoost
+
+### 4. Optimisation des modèles
+
+- **Grid Search :** Nous l'avons utilisé pour optimiser les hyperparamètres des différents modèles implémentés. Cette méthode garantit que les modèles sont ajustés pour obtenir leurs performances maximales sur les données.
+- **Validation croisée :** Nous avons utilisé la validation croisée k-fold (k=5) pour tester les modèles sur différents sous-ensembles de données et éviter les problèmes de surapprentissage.
+
+### 5. Évaluation des modèles
+
+Les modèles ont été évalués avec les métriques suivantes :
+- **Précision :** Pourcentage de bonnes prédictions parmi l'ensemble des prédictions.
+- **Rappel :** Proportion des cas positifs correctement identifiés.
+- **F1-Score :** Moyenne harmonique entre précision et rappel, utile pour les données déséquilibrées.
+- **Matrice de confusion :** Visualisation des prédictions correctes et des erreurs.
+
+---
+
+## 📈 **Résultats**
+
+### 1. Comparaison des résultats des modèles testés
+
+
+| Modèles | Précision | Rappel | F1-Score | 
+| --- | --- | --- | --- |
+| Arbre de Décision | 0.94 | 0.93 | 0.94 |
+| Forêt Aléatoire | 0.94 | 0.91 | 0.92 |
+| K Plus Proche Voisins | 0.58 | 0.58 | 0.58 |
+| Regression Logistique | 0.82 | 0.83 | 0.82 |
+| SVM | 0.61 | 0.63 | 0.62 |
+| XGBoost | 0.96 | 0.96 | 0.96 |
+| CatBoost | 0.95 | 0.95 | 0.95 |
+
+### 2. Meilleur modèle
+Après évalutaion de nos différents modèles, nous avons constaté que le modèle XGboost est le modèle le plus performant ayant un meilleur taux de prédiction.
+
+---
+
+## 🛠 **Technologies utilisées**
+
+**Langue principale**
+- **Python :** Pour le traitement des données, la modélisation et le développement de l'application.
+
+**Bibliothèques et frameworks**
+- **Streamlit :** Création de l'interface interactive.
+- **Pandas :** Manipulation et analyse des données.
+- **NumPy :** Calcul numérique.
+- **Matplotlib & Seaborn :** Visualisation des données.
+- **Scikit-learn :** Modélisation et évaluation des modèles.
+- **Joblib :** Sauvegarde et chargement des modèles pré-entraînés.
+
+## 🚀 **Améliorations futures**
+Les améliorations envisagées pour la suite du projet :
+
+1. Ajout de modèles avancés :
+Intégration d'algorithmes des réseaux de neurones (Deep Learning).
+2. Optimisation de la visualisation :
+Ajout de graphiques interactifs avancés.
+3. Exportation des prédictions au format CSV.
+4. API REST :
+Création d'une API REST pour permettre une intégration facile avec d'autres systèmes.
+
+## 📬 **Contact**
+Créé avec ❤️ par [David Lutala](https://github.com/DavidLUTALA)
+
+📧 Email : [David Lutala](davidlutala0@gmail.com)
+🌐 Portfolio : votre -portfolio .com
+N'hésitez pas à me contacter pour toute question ou collaboration future ! 🙌
+
+## 📱 Photos du système
+
 
