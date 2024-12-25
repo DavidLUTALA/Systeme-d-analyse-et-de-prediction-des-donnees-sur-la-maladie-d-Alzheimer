@@ -5,16 +5,16 @@
 ![Banner](https://user-images.githubusercontent.com/your_image_placeholder/banner.png) <!-- Remplacez par une image de bannière si disponible -->
 
 ## 📌 **Table des matières**
-1. [Aperçu du projet](#aperçu-du-projet)
-2. [Fonctionnalités](#fonctionnalités)
-3. [Installation](#installation)
-4. [Utilisation](#utilisation)
-5. [Dataset](#dataset)
-6. [Methodes et techniques d'anayse utilisées](#methodes-et-techniques-d-anayse-utilisées)
-7. [Résultats](#résultats)
-8. [Technologies utilisées](#technologies-utilisées)
-9. [Améliorations futures](#améliorations-futures)
-10. [Contact](#contact)
+1. [Aperçu du projet](#-aperçu-du-projet)
+2. [Fonctionnalités](#-fonctionnalités)
+3. [Installation](#-installation)
+4. [Utilisation](#-utilisation)
+5. [Dataset](#-dataset)
+6. [Methodes et techniques d'anayse utilisées](#-methodes-et-techniques-d-anayse-utilisées)
+7. [Résultats](#-résultats)
+8. [Technologies utilisées](#-technologies-utilisées)
+9. [Améliorations futures](#-améliorations-futures)
+10. [Contact](#-contact)
 
 ---
 
