@@ -10,7 +10,7 @@
 3. [Installation](#-installation)
 4. [Utilisation](#-utilisation)
 5. [Dataset](#-dataset)
-6. [Methodes et techniques d'anayse utilisées](#-methodes-et-techniques-d-anayse-utilisées)
+6. [Methodes et techniques d'anayse utilisées](#-methodes-et-techniques-d'anayse-utilisées)
 7. [Résultats](#-résultats)
 8. [Technologies utilisées](#-technologies-utilisées)
 9. [Améliorations futures](#-améliorations-futures)
@@ -50,7 +50,7 @@ Ce projet propose une solution complète pour explorer, analyser, et modéliser 
 ---
 
 
-## 💻**Installation**
+## 💻 **Installation**
 
 ### Prérequis
 - **Python** : Version 3.8 ou supérieure.
@@ -88,7 +88,7 @@ Ce projet propose une solution complète pour explorer, analyser, et modéliser 
 
 ---
 
-## 📊 **Ensemble de données**
+## 📊 **Dataset**
 
 ### 1. Les Variables de notre jeu de données
 
@@ -276,8 +276,9 @@ Création d'une API REST pour permettre une intégration facile avec d'autres sy
 ## 📬 **Contact**
 Créé avec ❤️ par [David Lutala](https://github.com/DavidLUTALA)
 
-📧 Email : [David Lutala](davidlutala0@gmail.com)
-🌐 Portfolio : votre -portfolio .com
+📧 Email : [davidlutala0@gmail.com](davidlutala0@gmail.com)
+
+🌐 LinkedIn : [David Lutala](https://www.linkedin.com/in/david-lutala-719952164/)
 N'hésitez pas à me contacter pour toute question ou collaboration future ! 🙌
 
 ## 📱 Photos du système
