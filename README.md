@@ -251,16 +251,16 @@ Après évalutaion de nos différents modèles, nous avons constaté que le mod�
 
 ## 🛠 **Technologies utilisées**
 
-**Langue principale**
+**Langage de programmation**
 - **Python :** Pour le traitement des données, la modélisation et le développement de l'application.
 
 **Bibliothèques et frameworks**
-- **Streamlit :** Création de l'interface interactive.
-- **Pandas :** Manipulation et analyse des données.
-- **NumPy :** Calcul numérique.
-- **Matplotlib & Seaborn :** Visualisation des données.
-- **Scikit-learn :** Modélisation et évaluation des modèles.
-- **Joblib :** Sauvegarde et chargement des modèles pré-entraînés.
+- **Streamlit :** Pour la création de l'interface interactive.
+- **Pandas :** Pour la manipulation et l'analyse des données.
+- **NumPy :** Pour le calcul numérique.
+- **Matplotlib & Seaborn :** Pour la visualisation des données.
+- **Scikit-learn :** Pour la modélisation et l'évaluation des modèles.
+- **Joblib :** Pour la sauvegarde et le chargement des modèles pré-entraînés.
 
 ## 🚀 **Améliorations futures**
 Les améliorations envisagées pour la suite du projet :
