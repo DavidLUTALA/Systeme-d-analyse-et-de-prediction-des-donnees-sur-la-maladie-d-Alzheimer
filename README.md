@@ -7,10 +7,11 @@
 ## 📌 **Table des matières**
 1. [Aperçu du projet](#aperçu-du-projet)
 2. [Fonctionnalités](#fonctionnalités)
-3. [Architecture](#architecture)
-4. [Installation](#installation)
-5. [Utilisation](#utilisation)
-6. [Dataset](#dataset)
+3. [Installation](#installation)
+4. [Utilisation](#utilisation)
+5. [Dataset](#dataset)
+5. [Dataset](#dataset)
+6. [Methodes et techniques d'anayse utilisées](#Methodes-et-techniques-d-anayse-utilisées)
 7. [Résultats](#résultats)
 8. [Technologies utilisées](#technologies-utilisées)
 9. [Améliorations futures](#améliorations-futures)
@@ -49,23 +50,6 @@ Ce projet propose une solution complète pour explorer, analyser, et modéliser 
 
 ---
 
-## 🛠 **Architecture**
-Le projet est organisé de manière modulaire pour assurer la lisibilité et la maintenabilité :
-```bash
-├── app.py                # Application Streamlit principale
-├── data/
-│   └── alzheimers_disease_data3.csv # Dataset utilisé
-├── models/
-│   ├── model_evaluation.py  # Scripts pour évaluer les modèles
-│   └── model_training.py    # Scripts pour entraîner les modèles
-├── utils/
-│   ├── preprocessing.py      # Fonctions de prétraitement
-│   ├── visualization.py      # Génération de graphiques
-│   └── helpers.py            # Utilitaires divers
-└── README.md             # Document de présentation
-```
-
----
 
 ## 💻 **Installation**
 
@@ -93,15 +77,15 @@ Le projet est organisé de manière modulaire pour assurer la lisibilité et la 
 
 ## 🎯 **Utilisation**
 
-### 1. Choisissez une option depuis le menu latéral :
+**1. Choisissez une option depuis le menu latéral :**
 - Introduction.
 - Aperçu des Données.
 - Prétraitement des Données.
 - Modélisation
 - Visualisations
 
-### 2. Interagissez avec les graphiques et les options pour personnaliser vos analyses :
-### 3. Obtenez des résultats des prédictions pour des différents modèles ou pour le jeu de données complet.
+**2. Interagissez avec les graphiques et les options pour personnaliser vos analyses**
+**3. Obtenez des résultats des prédictions pour des différents modèles ou pour le jeu de données complet.**
 
 ---
 
