@@ -10,7 +10,6 @@
 3. [Installation](#installation)
 4. [Utilisation](#utilisation)
 5. [Dataset](#dataset)
-5. [Dataset](#dataset)
 6. [Methodes et techniques d'anayse utilisées](#Methodes-et-techniques-d-anayse-utilisées)
 7. [Résultats](#résultats)
 8. [Technologies utilisées](#technologies-utilisées)
