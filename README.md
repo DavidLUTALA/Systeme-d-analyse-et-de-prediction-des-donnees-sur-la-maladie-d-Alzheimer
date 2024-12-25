@@ -26,6 +26,8 @@ Ce projet propose une solution complète pour explorer, analyser, et modéliser 
 
 > Ce projet illustre des compétences en **Data Science**, **Machine Learning**, et **développement d'applications interactives**, tout en mettant l'accent sur la présentation de résultats clairs et exploitables.
 
+![Alt text](Images/1.png)
+
 ---
 
 ## ✨ **Fonctionnalités**
@@ -283,4 +285,13 @@ N'hésitez pas à me contacter pour toute question ou collaboration future ! �
 
 ## 📱 Photos du système
 
-
+![Alt text](Images/2.png)
+![Alt text](Images/3.png)
+![Alt text](Images/4.png)
+![Alt text](Images/5.png)
+![Alt text](Images/6.png)
+![Alt text](Images/7.png)
+![Alt text](Images/8.png)
+![Alt text](Images/9.png)
+![Alt text](Images/10.png)
+![Alt text](Images/11.png)
