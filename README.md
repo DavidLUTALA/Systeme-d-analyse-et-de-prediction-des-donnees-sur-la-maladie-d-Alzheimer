@@ -76,7 +76,7 @@ Le projet est organisé de manière modulaire pour assurer la lisibilité et la 
 ### Étapes d'installation
 1. Cloner le dépôt :
    ```bash
-   git clone https://github.com/DavidLUTALA/Systeme-d-analyse-et-de-prediction-des-donnees-sur-la    maladie-d-Alzheimers
+   https://github.com/DavidLUTALA/Systeme-d-analyse-et-de-prediction-des-donnees-sur-la-maladie-d-Alzheimer.git
    ```
 
 2. Installer les dépendances :
