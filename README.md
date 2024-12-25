@@ -10,7 +10,7 @@
 3. [Installation](#installation)
 4. [Utilisation](#utilisation)
 5. [Dataset](#dataset)
-6. [Methodes et techniques d'anayse utilisées](#Methodes-et-techniques-d-anayse-utilisées)
+6. [Methodes et techniques d'anayse utilisées](#methodes-et-techniques-d-anayse-utilisées)
 7. [Résultats](#résultats)
 8. [Technologies utilisées](#technologies-utilisées)
 9. [Améliorations futures](#améliorations-futures)
@@ -50,7 +50,7 @@ Ce projet propose une solution complète pour explorer, analyser, et modéliser 
 ---
 
 
-## 💻 **Installation**
+## 💻**Installation**
 
 ### Prérequis
 - **Python** : Version 3.8 ou supérieure.
