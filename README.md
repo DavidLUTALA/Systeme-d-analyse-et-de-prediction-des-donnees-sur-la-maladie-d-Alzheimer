@@ -1,6 +1,6 @@
 # 🧠 Alzheimer’s Disease Data Analysis & Prediction System
 
-### 🚀 Un système interactif de visualisation et de prédiction des données lié à la maladie d'Alzheimer.
+### 🚀 Un système interactif de visualisation et de prédiction des données lié à la maladie d'Alzheimer
 
 ![Banner](https://user-images.githubusercontent.com/your_image_placeholder/banner.png) <!-- Remplacez par une image de bannière si disponible -->
 
