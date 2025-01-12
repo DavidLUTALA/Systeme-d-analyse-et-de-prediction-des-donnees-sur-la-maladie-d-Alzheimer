@@ -2,7 +2,7 @@
 
 ### 🚀 Un système interactif de visualisation et de prédiction des données lié à la maladie d'Alzheimer
 
-![Banner](https://user-images.githubusercontent.com/your_image_placeholder/banner.png) <!-- Remplacez par une image de bannière si disponible -->
+![Banner](https://user-images.githubusercontent.com/your_image_placeholder/banner.png)
 
 ## 📌 **Table des matières**
 1. [Aperçu du projet](#-aperçu-du-projet)
@@ -55,7 +55,7 @@ Ce projet propose une solution complète pour explorer, analyser, et modéliser 
 ## 💻 **Installation**
 
 ### Prérequis
-- **Python** : Version 3.8 ou supérieure.
+- **Python** : Version 3.10 ou supérieure.
 - **pip** : Pour la gestion des dépendances Python.
 
 ### Étapes d'installation
@@ -85,7 +85,7 @@ Ce projet propose une solution complète pour explorer, analyser, et modéliser 
 - Modélisation
 - Visualisations
 
-**2. Interagissez avec les graphiques et les options pour personnaliser vos analyses**
+**2. Interagissez avec les graphiques et les options pour personnaliser nos analyses**
 **3. Obtenez des résultats des prédictions pour des différents modèles ou pour le jeu de données complet.**
 
 ---
@@ -190,7 +190,7 @@ Dans notre étude, la variable cible est **Diagnostic**, Cette variable catégor
 ---
 
 ## 📊 **Methodes et techniques d'anayse utilisées**
-Les méthodes d'analyse utilisées dans votre projet incluent plusieurs approches pour explorer, visualiser et modéliser les données afin d'obtenir des insights significatifs et de prédire la probabilité de la maladie d'Alzheimer.
+Les méthodes d'analyse utilisées dans ce projet incluent plusieurs approches pour explorer, visualiser et modéliser les données afin d'obtenir des insights significatifs et de prédire la probabilité de la maladie d'Alzheimer.
 ### 1. Analyse exploratoire des données (EDA)
 
 - **Statistiques descriptives :** Moyenne, médiane, écart-type et distribution des données.
@@ -201,10 +201,13 @@ Les méthodes d'analyse utilisées dans votre projet incluent plusieurs approche
 ### 2. Prétraitement des données
 
 - **Encodage des variables catégoriques :** Conversion des colonnes textuelles en numériques avec LabelEncoder
-- **Normalisation :** Normalisation des différentes variables pour assurer une échelle uniforme entre les fonctionnalités
 - **Suppression des anomalies :** Identification et traitement des valeurs aberrantes dans des colonnes spécifiques
 
-### 3. Modélisation prédictive
+### 3. Feature Engineering
+
+- **Transformation des variables existantes :** Normalisation de certaines variables à une echelle de -1 à 1 pour correspondre aux autres variables de notre jeu de données afin de permettre au modèle de mieux comprendre certaines caractéristiques ressorties par ces variables et ainsi accroitre la performance du modèle.
+
+### 4. Modélisation prédictive
 
 Plusieurs algorithmes de machine learning ont été testés pour prédire le diagnostic :
 
@@ -216,12 +219,12 @@ Plusieurs algorithmes de machine learning ont été testés pour prédire le dia
 - XGBoost
 - CatBoost
 
-### 4. Optimisation des modèles
+### 5. Optimisation des modèles
 
 - **Grid Search :** Nous l'avons utilisé pour optimiser les hyperparamètres des différents modèles implémentés. Cette méthode garantit que les modèles sont ajustés pour obtenir leurs performances maximales sur les données.
 - **Validation croisée :** Nous avons utilisé la validation croisée k-fold (k=5) pour tester les modèles sur différents sous-ensembles de données et éviter les problèmes de surapprentissage.
 
-### 5. Évaluation des modèles
+### 6. Évaluation des modèles
 
 Les modèles ont été évalués avec les métriques suivantes :
 - **Précision :** Pourcentage de bonnes prédictions parmi l'ensemble des prédictions.
