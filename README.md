@@ -82,7 +82,7 @@ Ce projet propose une solution complète pour explorer, analyser, et modéliser 
 - Introduction.
 - Aperçu des Données.
 - Prétraitement des Données.
-- Modélisation
+- Modélisation. 
 - Visualisations
 
 **2. Interagissez avec les graphiques et les options pour personnaliser nos analyses**
