@@ -83,7 +83,7 @@ Ce projet propose une solution complète pour explorer, analyser, et modéliser 
 - Aperçu des Données.
 - Prétraitement des Données.
 - Modélisation. 
-- Visualisations
+- Visualisations.
 
 **2. Interagissez avec les graphiques et les options pour personnaliser nos analyses**
 **3. Obtenez des résultats des prédictions pour des différents modèles ou pour le jeu de données complet.**
